@@ -1,0 +1,98 @@
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+/* .wrapper {
+    height: 100vh;
+    background-color: #423875;
+  } */
+
+.nav-bar {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: rgba(37, 32, 64, 255);
+  border: 2px solid black;
+  color: #7859d6;
+  display: flex;
+  height: 50px;
+}
+.logo {
+  width: 20%;
+  color: white;
+}
+.shop,
+.settings,
+.support {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.search-container {
+  width: 45%;
+  padding: 10px;
+}
+.search-div {
+  width: 30%;
+  height: 25px;
+}
+
+/* .sidebar {
+  margin-top: 1px;
+  margin-left: -10px;
+  height: 94vh;
+  background-color: rgba(37, 32, 64, 255);
+  color: #7859d6;
+}*/
+
+li{
+  margin-bottom: 3px;
+  margin-left: 8px;
+  list-style: none;
+} 
+.sidebar {
+  margin-top: 1px;
+  margin-right: 1px;
+  height: 100vh;
+  background-color: rgba(37,32,64,255);
+  color: #fff; /* Change text color to white for better contrast */
+  padding-top: 30px; /* Add padding for better spacing from the top */
+  font-family: Arial, sans-serif; /* Use a professional font */
+  font-size: 20px;
+}
+
+.sidebar ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px 0; /* Add vertical padding for each list item */
+  cursor: pointer; /* Add pointer cursor for better UX */
+  margin-top:30px;
+}
+.sidebar a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  
+}
+.sidebar ul li i {
+  margin-right: 10px; /* Add some space between the icon and text */
+  vertical-align: middle; /* Align icon vertically */
+}
+.sidebar ul a:hover{
+ background-color: #413784;
+ background-size: 50px 50px;
+
+
+}
+.Link{
+  text-decoration: none;
+  color: #fff;
+}
+.main-content{
+  margin-top: 1px;
+  background-color: #1f1e3e;
+}
